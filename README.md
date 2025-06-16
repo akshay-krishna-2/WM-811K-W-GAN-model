@@ -15,4 +15,6 @@ WGAN is leveraged to generate realistic and diverse synthetic samples for underr
 This approach significantly improves defect classification performance, especially for rare classes, while maintaining a compact model footprint.
 
 
-![Demo](Donut.gif)
+<p align="center">
+  <img src="Donut.gif" width="500" alt="Demo">
+</p>
