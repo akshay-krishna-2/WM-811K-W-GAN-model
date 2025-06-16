@@ -14,7 +14,9 @@ WGAN is leveraged to generate realistic and diverse synthetic samples for underr
 
 This approach significantly improves defect classification performance, especially for rare classes, while maintaining a compact model footprint.
 
-
 <p align="center">
   <img src="Donut.gif" width="500" alt="Demo">
 </p>
+
+The GIF above showcases the progressive improvement of WGAN-generated Donut defects across training epochs. Initially, the outputs are noisy and lack structure, but as training advances, the model begins to generate increasingly realistic and diverse wafer maps that closely resemble true Donut defect patterns. This demonstrates WGAN’s ability to capture complex data distributions and produce high-fidelity, varied samples, effectively augmenting the minority class and enhancing the robustness of downstream classifiers.
+
